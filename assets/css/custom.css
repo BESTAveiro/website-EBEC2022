@@ -233,7 +233,7 @@
 
 .nav-logo-1 {
     height: 56px;
-    margin:10px;
+    margin: 2px 15px;
 }
 
 .nav-logo-2 {
@@ -421,11 +421,11 @@
 
 /*Divisions*/
 .division-gray{
-  background-color: rgba(200, 200, 200, 0.9);
+  background-color: rgba(184, 184, 184, 0.726);
 }
 
 .division-blue{
-  background-color:#294F66 ;
+  background-color:#3f3f3f ;
 }
 
 .division-orange{
@@ -510,7 +510,7 @@ h2.section-heading {
   font-size: 40px;
   margin: 15px auto;
   text-transform: uppercase;
-  font-family: Montserrat,"Helvetica Neue",Helvetica,Arial,sans-serif;
+  font-family: sans-serif,"Helvetica Neue",Helvetica,Arial,sans-serif;
   font-weight: 700;
 }
 
@@ -700,20 +700,6 @@ footer{
   display: flex;
   position: relative;
   overflow: hidden;
-}
-
-.clock::before, .clock::after {
-  content: '';
-  width: 10ch;
-  height: 3vh;
-  background: linear-gradient(to top, transparent, black);
-  position: absolute;
- 
-}
-
-.clock::after {
-  bottom: 0;
-  background: linear-gradient(to bottom, transparent, black);
 }
 
 .clock > div {
