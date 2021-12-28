@@ -52,7 +52,7 @@
   fill: #EEA225;
   height: 1.2em;
   vertical-align: bottom;
-  margin-right: 0.2em;
+  margin-right: 0 !important;
   -webkit-transition: all 0.2s ease-in-out;
   transition: all 0.2s ease-in-out;
 }
@@ -425,7 +425,7 @@
 }
 
 .division-blue{
-  background-color:#0a0a0a ;
+  background-color:#292929 ;
 }
 
 .division-orange{
@@ -688,13 +688,10 @@ footer{
 }
 
 
-
-
-
 .clock {
   height: 200px;
   color: rgb(255, 255, 255);
-  font-size: 150px;
+  font-size: 1100%;
   font-family: sans-serif;
   line-height: 20.4vh;
   display: flex;
