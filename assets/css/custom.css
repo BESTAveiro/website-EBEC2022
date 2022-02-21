@@ -52,7 +52,7 @@
   fill: #EEA225;
   height: 1.2em;
   vertical-align: bottom;
-  margin-right: 0 !important;
+  margin-right: 0.2em;
   -webkit-transition: all 0.2s ease-in-out;
   transition: all 0.2s ease-in-out;
 }

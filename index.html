@@ -77,7 +77,6 @@
                                                                                      data-bind="text: nome"></span></a>
                         </li>
                     </ul>
-                    
                 </li>
                 <!--/ko -->
                 <li><a data-bind="text: lingua, attr: {href: page}"></a></li>
@@ -505,15 +504,15 @@ setInterval(updateTime, 100)
     </div>
     <div class="container-fluid">
         <div class="row">
-            <div class="panel-group  col-lg-14" data-bind="foreach: vetor " id="accordion">
+            <div class="panel-group col-lg-12 text-center" data-bind="foreach: vetor " id="accordion">
                 <div class="panel panel-default">
-                    <div class="panel-heading">
-                        <h4 class="panel-title text-no-transform text-blue">
+                    <div class="panel-heading" >
+                        <h4 class="panel-title text-no-transform text-blue text-center">
                             <a class="accordion-toggle collapsed" data-toggle="collapse" data-parent="#accordion"
                                data-bind="text: p, attr: {href: '#co' + $index()}" href="#collapse1"></a>
                         </h4>
                     </div>
-                    <div class="panel-collapse collapse" data-bind="attr: {id: 'co' + $index()}" id="collapse1">
+                    <div class="panel-collapse collapse text-center" data-bind="attr: {id: 'co' + $index()}" id="collapse1">
                         <div class="panel-body" data-bind="html: r"></div>
                     </div>
                 </div>
@@ -671,7 +670,7 @@ setInterval(updateTime, 100)
         </div>
     </div>
     <div class="row" data-bind="foreach: people">
-        <div class="col-lg-3 col-sm-6">
+        <div class="col-lg-4">
             <div class="team-member">
                 <img alt="contact" class="img-responsive img-circle img-thumbnail img-contact"
                      data-bind="attr: {src: foto}">

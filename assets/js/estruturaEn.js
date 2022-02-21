@@ -104,7 +104,7 @@ $(document).ready(function () {
             sectionHeading: "Previous Editions",
             videos: [
                 "https://www.facebook.com/plugins/video.php?height=314&href=https%3A%2F%2Fwww.facebook.com%2FEBEC.aveiro%2Fvideos%2F403975390199860%2F&show_text=false&width=560",
-                "https://www.facebook.com/plugins/video.php?href=https%3A%2F%2Fwww.facebook.com%2FEBEC.aveiro%2Fvideos%2F1347546375345790%2F",
+                "https://www.facebook.com/plugins/video.php?href=https%3A%2F%2Fwww.facebook.com%2FEBEC.aveiro%2Fvideos%2F462307108435150%2F&width=500&show_text=false&height=500&appId",
                 //"https://www.youtube.com/embed/osqsy-kDcU4"
             ]
         },
@@ -417,37 +417,28 @@ $(document).ready(function () {
             people: [
                 {
                     foto: "assets/img/team/ines.jpg",
-                    nome: "Inês Leite",
+                    nome: "Vasco Espinhas",
                     role: "Main Organiser of EBEC Aveiro 2021",
+                    tel: "+(351) 918 981 178",
+                    email: "mailto:vascopinho24@gmail.com",
+                    email2: "vascopinho24@gmail.com"
+                },
+                {
+                    foto: "assets/img/team/ines.jpg",
+                    nome: "Inês Leite",
+                    role: "President of BEST Aveiro",
                     tel: "+(351) 914 241 456",
                     email: "mailto:inesleite200020@gmail.com ",
                     email2: "inesleite200020@gmail.com "
                 },
                 {
-                    foto: "assets/img/team/beatriz.jpeg",
-                    nome: "Beatriz Aleixo",
-                    role: "Main Organiser of EBEC Aveiro 2021",
-                    tel: "+(351) 961 967 126",
-                    email: "mailto:beatriz1aleixo@gmail.com",
-                    email2: "beatriz1aleixo@gmail.com"
-                },
-                {
-                    foto: "assets/img/team/mateus.jpg",
-                    nome: "Mateus Lima",
-                    role: "President of BEST Aveiro",
-                    tel: "+(351) 913 396 248",
-                    email: "mailto:mateus.lima@BEST.eu.org",
-                    email2: "mateus.lima@BEST-eu.org"
-                },
-                {
-                    foto: "assets/img/team/carolina.jpg",
-                    nome: "Carolina Rofrigues",
+                    foto: "assets/img/team/ines.jpg",
+                    nome: "José Silva",
                     role: "Corporate Relations Responsible",
-                    tel: "+(351) 969 431 364",
-                    email: "mailto:carolina.isa96@gmail.com",
-                    email2: "carolina.isa96@gmail.com"
+                    tel: "+(351) 918 311 076",
+                    email: "mailto:jose.silva@best-eu.org",
+                    email2: "jose.silva@best-eu.org"
                 }
-        
              
             ]
         },
@@ -477,7 +468,7 @@ $(document).ready(function () {
                         "3810-193 Aveiro<br/>Portugal",
                     classe: "fa-home"
                 },
-                {chave: "Telephone", valor: "+351 913 396 248", classe: "fa-phone"},
+                {chave: "Telephone", valor: "+351 914 241 456", classe: "fa-phone"},
                 {
                     chave: "Email",
                     valor: "<a href='mailto:aveiro@BEST-eu.org'>aveiro@BEST-eu.org</a>",
