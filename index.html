@@ -1,6 +1,64 @@
 <!DOCTYPE html>
 <html lang="pt-pt">
 <head>
+
+<style>
+.containerh {
+    margin: 0 auto;
+    vertical-align: middle;
+}
+
+.imageh {
+    display: inline-block;
+    margin: 0 auto;
+    vertical-align: middle;
+    width: 250px;
+    height: 250px;
+}
+
+.overlayh {
+    position: absolute;
+    top: 0;
+    bottom: 0;
+    left: 0;
+    right: 0;
+    height: 100%;
+    width: 100%;
+    opacity: 0;
+    transition: .75s ease;
+    background-color: #EEA225;
+}
+
+.containerh:hover .overlayh {
+    opacity: 0.90;
+}
+
+.texth {
+    color: white;
+    font-size: 20px;
+    position: absolute;
+    top: 40%;
+    left: 50%;
+    -webkit-transform: translate(-50%, -50%);
+    -ms-transform: translate(-50%, -50%);
+    transform: translate(-50%, -50%);
+    text-align: center;
+}
+.texth2 {
+    color: white;
+    font-size: 15px;
+    position: absolute;
+    top: 60%;
+    left: 50%;
+    -webkit-transform: translate(-50%, -50%);
+    -ms-transform: translate(-50%, -50%);
+    transform: translate(-50%, -50%);
+    text-align: center;
+}
+</style>
+
+
+
     <!--Links meta-->
     <meta http-equiv="Content-Type" content="text/html" charset="utf-8">
     <meta http-equiv="X-UA-Compatible" content="IE=edge,chrome=1">
@@ -461,17 +519,39 @@ setInterval(updateTime, 100)
         </div>
         <div data-bind="foreach: juri1">
             <div class="col-md-4 col-sm-6" data-bind="css: {'col-sm-6': $index() != 2}">
-                <div class="team-member">
+
+               <div class="containerh team-member">
+
                     <img alt="juri" alt="juri"
                          class="img-responsive img-circle img-center img-thumbnail img-jury"
                          data-bind="attr: {src: foto}">
+                    <div class="overlayh img-responsive img-circle img-center img-jury">
+                        <div class="texth" data-bind="text: nome"></div>
+                        <div class="texth2" data-bind="text: descricao"></div>
+
+                        <a data-bind="attr: {href: conta}"
+                            href="https://www.linkedin.com/in/vitor-bonif%C3%A1cio-473455127/"
+                            target="_blank">
+                            <i class="fab fa-linkedin fa-3x" style="color:white"></i>
+                        </a>
+                    </div>
+                </div>
+
+<!--                <div class="team-member">
+
+                    <img alt="juri" alt="juri"
+                         class="img-responsive img-circle img-center img-thumbnail img-jury"
+                         data-bind="attr: {src: foto}">
+
                     <h4 class="text-white" data-bind="text: nome"></h4>
+
                     <a data-bind="attr: {href: conta}"
                        href="https://www.linkedin.com/in/vitor-bonif%C3%A1cio-473455127/"
                        target="_blank">
                         <i class="fab fa-linkedin fa-3x" style="color:white"></i>
+                        
                     </a>
-                </div>
+                </div>-->
             </div>
         </div>
     </div>
@@ -482,12 +562,21 @@ setInterval(updateTime, 100)
         </div>
         <div data-bind="foreach: juri2">
             <div class="col-lg-3 col-sm-6">
-                <div class="team-member">
-                    <img alt="juri" alt="juri" class="img-responsive img-center img-circle img-thumbnail img-jury"
-                         data-bind="attr: {src: foto}">
-                    <h4 class="text-white" data-bind="text: nome"></h4>
-                    <a data-bind="attr: {href: conta}" target="_blank"><i class="fab fa-linkedin fa-3x"
-                                                                          style="color:white"></i></a>
+
+
+                <div class="containerh team-member">
+                    <img alt="juri" alt="juri" 
+                        class="img-responsive img-center img-circle img-thumbnail img-jury"
+                        data-bind="attr: {src: foto}">
+                    <div class="overlayh img-responsive img-circle img-center img-jury">
+                        <div class="texth" data-bind="text: nome"></div>
+                        <div class="texth2" data-bind="text: descricao"></div>
+
+                        <a data-bind="attr: {href: conta}" 
+                            target="_blank">
+                            <i class="fab fa-linkedin fa-3x" style="color:white"></i>
+                        </a>
+                    </div>    
                 </div>
             </div>
         </div>
@@ -696,7 +785,7 @@ setInterval(updateTime, 100)
         <div class="col-lg-5 col-lg-offset-0 col-md-offset-2 col-md-8 col-sm-offset-1 col-sm-10">
             <img alt="logo-BEST" class="img-responsive img-center" data-bind="attr: {src: img}" src="">
         </div>
-        <div class="col-lg-7 text-blue text-justify" data-bind="foreach: corpo">
+        <div class="col-lg-7 text-blue text-justify1" data-bind="foreach: corpo">
             <p class="" data-bind="text: $data" style="font-size: 16px"></p>
         </div>
     </div>

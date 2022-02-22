@@ -347,25 +347,28 @@ $(document).ready(function () {
             juri1: [
                 {
                     nome: "Margarida Facão",
+                    descricao: "Sou azeiteiro",
                     foto: 'assets/img/juri/margarida_facao.jpg',
                     conta: "https://www.linkedin.com/in/margarida-facao-0233b688/"
                 },
                 {
                     nome: "Fábio Fernandes",
+                    descricao: "Sou azeiteiro",
                     foto: "assets/img/juri/fabiofernandes.png",
                     conta: "https://www.linkedin.com/in/fábio-fernandes-07274410a/"
                 },
-                {nome: "Paulo Lopes", foto: "assets/img/juri/paulo_lopes.png", conta: "#"}
+                {nome: "Paulo Lopes", descricao: "Sou azeiteiro", foto: "assets/img/juri/paulo_lopes.png", conta: "#"}
             ],
             juri2: [
-                {nome: "Nuno Lopes", foto: "assets/img/juri/nuno_lopes.png", conta: "https://www.linkedin.com/in/nuno-lopes-82aa82a7/"},
-                {nome: "Nuno Durães", foto: "assets/img/juri/nuno_duraes.jpg", conta: "#"},
+                {nome: "Nuno Lopes", descricao: "Sou azeiteiro", foto: "assets/img/juri/nuno_lopes.png", conta: "https://www.linkedin.com/in/nuno-lopes-82aa82a7/"},
+                {nome: "Nuno Durães", descricao: "Sou azeiteiro", foto: "assets/img/juri/nuno_duraes.jpg", conta: "#"},
                 {
                     nome: "Luís Cadillon",
+                    descricao: "Sou azeiteiro",
                     foto: "assets/img/juri/cadillon.jpg",
                     conta: "#"
                 },
-                {nome: "João Veloso", foto: "assets/img/juri/joao_veloso.png", conta: "#"},
+                {nome: "João Veloso", descricao: "Sou azeiteiro", foto: "assets/img/juri/joao_veloso.png", conta: "#"},
                 
             ]
             
