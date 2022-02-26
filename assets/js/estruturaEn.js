@@ -2,8 +2,8 @@ $(document).ready(function () {
 
     var portuguese = {
         navbar: {
-            img: "assets/img/logos/roldana-white.png",
-            img2: "assets/img/logos/best-aveiro-white.png",
+            img: "assets/img/logos/roldana-gif.gif",
+            img2: "assets/img/logos/best-aveiro-color.png",
             lingua: "PT",
             page: "index.html",
             dropdowns: [
@@ -424,7 +424,7 @@ $(document).ready(function () {
                     role: "Main Organiser of EBEC Aveiro 2021",
                     tel: "+(351) 918 981 178",
                     email: "mailto:vascopinho24@gmail.com",
-                    email2: "vascopinho24@gmail.com"
+                    email2: " vascopinho24@gmail.com"
                 },
                 {
                     foto: "assets/img/team/ines.jpg",
@@ -432,7 +432,7 @@ $(document).ready(function () {
                     role: "President of BEST Aveiro",
                     tel: "+(351) 914 241 456",
                     email: "mailto:inesleite200020@gmail.com ",
-                    email2: "inesleite200020@gmail.com "
+                    email2: " inesleite200020@gmail.com "
                 },
                 {
                     foto: "assets/img/team/ines.jpg",
@@ -440,7 +440,7 @@ $(document).ready(function () {
                     role: "Corporate Relations Responsible",
                     tel: "+(351) 918 311 076",
                     email: "mailto:jose.silva@best-eu.org",
-                    email2: "jose.silva@best-eu.org"
+                    email2: " jose.silva@best-eu.org"
                 }
              
             ]

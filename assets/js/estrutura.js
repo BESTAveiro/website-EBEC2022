@@ -2,8 +2,8 @@ $(document).ready(function () {
 
     var portuguese = {
         navbar: {
-            img: "assets/img/logos/roldana-white.png",
-            img2: "assets/img/logos/best-aveiro-white.png",
+            img: "assets/img/logos/roldana-gif.gif",
+            img2: "assets/img/logos/best-aveiro-color.png",
             lingua: "EN",
             page: "index-en.html",
             dropdowns: [
@@ -214,7 +214,7 @@ $(document).ready(function () {
                         "existência. O peso da responsabilidade é sem dúvida enorme, mas tudo compensa no momento em que, " +
                         "chegado ao dia do evento, vemos o empenho e a paixão com que os participantes aderem e se envolvem " +
                         "neste projeto",
-                    final: "João Valente<br>Coordenador da EBEC Challenge Aveiro 2021"
+                    final: "João Valente<br>Coordenador da EBEC Challenge Aveiro 2018"
                 },
                 {
                     foto: "assets/img/testimonials/2.jpg",
@@ -426,7 +426,7 @@ $(document).ready(function () {
                     role: "Coordenador da EBEC Aveiro 2021",
                     tel: "+(351) 918 981 178",
                     email: "mailto:vascopinho24@gmail.com",
-                    email2: "vascopinho24@gmail.com"
+                    email2: " vascopinho24@gmail.com"
                 },
                 {
                     foto: "assets/img/team/ines.jpg",
@@ -434,7 +434,7 @@ $(document).ready(function () {
                     role: "Presidente do BEST Aveiro",
                     tel: "+(351) 914 241 456",
                     email: "mailto:inesleite200020@gmail.com ",
-                    email2: "inesleite200020@gmail.com "
+                    email2: " inesleite200020@gmail.com "
                 },
                 {
                     foto: "assets/img/team/ines.jpg",
@@ -442,7 +442,7 @@ $(document).ready(function () {
                     role: "Responsável de Relações Empresariais",
                     tel: "+(351) 918 311 076",
                     email: "mailto:jose.silva@best-eu.org",
-                    email2: "jose.silva@best-eu.org"
+                    email2: " jose.silva@best-eu.org"
                 }
             ]
         },

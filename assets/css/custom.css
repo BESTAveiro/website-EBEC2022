@@ -572,6 +572,10 @@ footer{
 
 
 /*texts*/
+.text-retardaded{
+  color: #3333FF;  
+}
+
 .text-blue{
   color: #0a0a0a;
 }
@@ -593,6 +597,8 @@ footer{
 }
 
 .big-number {
+  opacity: 0.55;
+  color: #3333FF;
   font-size: 30px;
   font-family: Montserrat, "Helvetica Neue", Helvetica, Arial, sans-serif;
   margin-right: 5px;
