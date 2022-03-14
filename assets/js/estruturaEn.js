@@ -345,28 +345,28 @@ $(document).ready(function () {
             juri1: [
                 {
                     nome: "Margarida Facão",
-                    descricao: "Sou azeiteiro",
-                    foto: 'assets/img/juri/margarida_facao.jpg',
+                    descricao: "...",
+                    foto: 'assets/img/juri/vasco.jpg',
                     conta: "https://www.linkedin.com/in/margarida-facao-0233b688/"
                 },
                 {
                     nome: "Fábio Fernandes",
-                    descricao: "Sou azeiteiro",
-                    foto: "assets/img/juri/fabiofernandes.png",
+                    descricao: "...",
+                    foto: "assets/img/juri/vasco.jpg",
                     conta: "https://www.linkedin.com/in/fábio-fernandes-07274410a/"
                 },
-                {nome: "Paulo Lopes", descricao: "Sou azeiteiro", foto: "assets/img/juri/paulo_lopes.png", conta: "#"}
+                {nome: "Paulo Lopes", descricao: "...", foto: "assets/img/juri/vasco.jpg", conta: "#"}
             ],
             juri2: [
-                {nome: "Nuno Lopes", descricao: "Sou azeiteiro", foto: "assets/img/juri/nuno_lopes.png", conta: "https://www.linkedin.com/in/nuno-lopes-82aa82a7/"},
-                {nome: "Nuno Durães", descricao: "Sou azeiteiro", foto: "assets/img/juri/nuno_duraes.jpg", conta: "#"},
+                {nome: "Nuno Lopes", descricao: "...", foto: "assets/img/juri/vasco.jpg", conta: "https://www.linkedin.com/in/nuno-lopes-82aa82a7/"},
+                {nome: "Nuno Durães", descricao: "...", foto: "assets/img/juri/vasco.jpg", conta: "#"},
                 {
                     nome: "Luís Cadillon",
-                    descricao: "Sou azeiteiro",
-                    foto: "assets/img/juri/cadillon.jpg",
+                    descricao: "...",
+                    foto: "assets/img/juri/vasco.jpg",
                     conta: "#"
                 },
-                {nome: "João Veloso", descricao: "Sou azeiteiro", foto: "assets/img/juri/joao_veloso.png", conta: "#"},
+                {nome: "João Veloso", descricao: "...", foto: "assets/img/juri/vasco.jpg", conta: "#"},
                 
             ]
         },
@@ -378,17 +378,17 @@ $(document).ready(function () {
         team: {
             sectionHeading: "The Team",
             equipa: [
-                {nome: "Beatriz Aleixo", role: "Coordinator of EBEC Aveiro 2021", foto: "assets/img/team/beatriz.jpeg"},
-                {nome: "Inês Leite", role: "Coordinator of EBEC Aveiro 2021", foto: "assets/img/team/ines.jpg"},
-                {nome: "Fábio Freitas", role: "Topic Responsible", foto: "assets/img/team/fabio.jpg"},
-                {nome: "Carolina Rodrigues", role: "Corporate Relations Responsible", foto: "assets/img/team/carolina.jpg"},
+                {nome: "Beatriz Aleixo", role: "Coordinator of EBEC Aveiro 2021", foto: "assets/img/team/vasco.jpg"},
+                {nome: "Inês Leite", role: "Coordinator of EBEC Aveiro 2021", foto: "assets/img/team/vasco.jpg"},
+                {nome: "Fábio Freitas", role: "Topic Responsible", foto: "assets/img/team/vasco.jpg"},
+                {nome: "Carolina Rodrigues", role: "Corporate Relations Responsible", foto: "assets/img/team/vasco.jpg"},
                 
             ],
             equipa2: [
-                {nome: "Pedro Marques", role: "Information Tecnology Responsible", foto: "assets/img/team/pedro.jpg"},
-                {nome: "Maria Canhoto", role: "Marketing Responsible", foto: "assets/img/team/mariac.jpg"},
-                {nome: "Maria João Martins", role: "Logistic Responsible", foto: "assets/img/team/mariajoao.jpg"},
-                {nome: "Bruna Cruz", role: "Participants Responsible", foto: "assets/img/team/bruna.jpg"},
+                {nome: "Pedro Marques", role: "Information Tecnology Responsible", foto: "assets/img/team/vasco.jpg"},
+                {nome: "Maria Canhoto", role: "Marketing Responsible", foto: "assets/img/team/vasco.jpg"},
+                {nome: "Maria João Martins", role: "Logistic Responsible", foto: "assets/img/team/vasco.jpg"},
+                {nome: "Bruna Cruz", role: "Participants Responsible", foto: "assets/img/team/vasco.jpg"},
                 ]
         },
         becomePartner: {
@@ -419,15 +419,15 @@ $(document).ready(function () {
             sectionHeading: "Contacts",
             people: [
                 {
-                    foto: "assets/img/team/ines.jpg",
-                    nome: "Vasco Espinhas",
-                    role: "Main Organiser of EBEC Aveiro 2021",
+                    foto: "assets/img/team/vasco.jpg",
+                    nome: "Vasco Pinho",
+                    role: "Main Organiser of EBEC Aveiro 2022",
                     tel: "+(351) 918 981 178",
                     email: "mailto:vascopinho24@gmail.com",
                     email2: " vascopinho24@gmail.com"
                 },
                 {
-                    foto: "assets/img/team/ines.jpg",
+                    foto: "assets/img/team/vasco.jpg",
                     nome: "Inês Leite",
                     role: "President of BEST Aveiro",
                     tel: "+(351) 914 241 456",
@@ -435,7 +435,7 @@ $(document).ready(function () {
                     email2: " inesleite200020@gmail.com "
                 },
                 {
-                    foto: "assets/img/team/ines.jpg",
+                    foto: "assets/img/team/vasco.jpg",
                     nome: "José Silva",
                     role: "Corporate Relations Responsible",
                     tel: "+(351) 918 311 076",
