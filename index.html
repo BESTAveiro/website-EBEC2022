@@ -18,6 +18,7 @@
 
         .overlayh {
             position: absolute;
+            align-items: center;
             top: 0;
             bottom: 0;
             left: 0;
@@ -665,69 +666,6 @@ setInterval(updateTime, 100)
     </div>
 </div>
 
-
-
-<div class="container1 division-blue division-main " data-bind="with: juri" id="juri">
-    
-    <div class="row">
-        <div class="col-lg-14 text-center">
-            <h2 class="section-heading text-orange" data-bind="text: sectionHeading"></h2>
-            <hr style="height:2px; border:none; color:#EEA225; background-color:#EEA225;" />
-            <h3 class="section-subheading text-orange" data-bind="text: sectionSubHeading"></h3>
-            <br>
-        </div>
-    </div>
-    <div class="row">
-        <div class="col-xs-12 text-center">
-            <h3 class="text-orange" data-bind="text: sectionSubHeading1"
-                style="font-weight: bold;font-size: 35px; padding-bottom: 20px;"></h3>
-        </div>
-        <div data-bind="foreach: juri1">
-            <div class="col-md-4 col-sm-6" data-bind="css: {'col-sm-6': $index() != 2}">
-               <div class="containerh team-member">
-                    <img alt="juri" alt="juri"
-                         class="img-responsive img-circle img-center img-thumbnail img-jury"
-                         data-bind="attr: {src: foto}">
-                    <div class="overlayh img-responsive img-circle img-center img-jury">
-                        <div class="texth" data-bind="text: nome"></div>
-                        <div class="texth2" data-bind="text: descricao"></div>
-
-                        <a data-bind="attr: {href: conta}"
-                            href="https://www.linkedin.com/in/vitor-bonif%C3%A1cio-473455127/"
-                            target="_blank">
-                            <i class="fab fa-linkedin fa-3x" style="color:white"></i>
-                        </a>
-                    </div>
-                </div>
-            </div>
-        </div>
-    </div>
-    <div class="row">
-        <div class="col-xs-12 text-center">
-            <h3 class="text-orange" data-bind="text: sectionSubHeading2"
-                style="font-weight: bold;font-size: 35px; padding-bottom: 20px;"></h3>
-        </div>
-        <div data-bind="foreach: juri2">
-            <div class="col-lg-3 col-sm-6">
-                <div class="containerh team-member">
-                    <img alt="juri" alt="juri" 
-                        class="img-responsive img-center img-circle img-thumbnail img-jury"
-                        data-bind="attr: {src: foto}">
-                    <div class="overlayh img-responsive img-circle img-center img-jury">
-                        <div class="texth" data-bind="text: nome"></div>
-                        <div class="texth2" data-bind="text: descricao"></div>
-
-                        <a data-bind="attr: {href: conta}" 
-                            target="_blank">
-                            <i class="fab fa-linkedin fa-3x" style="color:white"></i>
-                        </a>
-                    </div>    
-                </div>
-            </div>
-        </div>
-    </div>
-
-</div>
 <div class="container1 division-gray division-main" data-bind="with: faqs" id="faqs">
     <div class="row">
         <div class="col-lg-12 text-center">
@@ -755,7 +693,70 @@ setInterval(updateTime, 100)
     </div>
 </div>
 
+<div class="container1 division-blue division-main " data-bind="with: juri" id="juri">
+    
+    <div class="row">
+        <div class="col-lg-14 text-center">
+            <h2 class="section-heading text-orange" data-bind="text: sectionHeading"></h2>
+            <hr style="height:2px; border:none; color:#EEA225; background-color:#EEA225;" />
+            <h3 class="section-subheading text-orange" data-bind="text: sectionSubHeading"></h3>
+            <br>
+        </div>
+    </div>
+    <div class="row">
+        <div class="col-xs-12 text-center">
+            <h3 class="text-orange" data-bind="text: sectionSubHeading1"
+                style="font-weight: bold;font-size: 35px; padding-bottom: 20px;"></h3>
+        </div>
+    </div>
+    <div class="row">
+        <div data-bind="foreach: juri1">
+            <div class="col-md-4 col-sm-6" data-bind="css: {'col-sm-6': $index() != 2}">
+               <div class="containerh team-member">
+                    <img alt="juri" alt="juri"
+                         class="img-responsive img-circle img-center img-thumbnail img-jury"
+                         data-bind="attr: {src: foto}">
+                    <div class="img-responsive img-circle img-center img-jury overlayh">
+                        <div class="texth" data-bind="text: nome"></div>
+                        <div class="texth2" data-bind="text: descricao"></div>
 
+                        <a data-bind="attr: {href: conta}"
+                            href="https://www.linkedin.com/in/vitor-bonif%C3%A1cio-473455127/"
+                            target="_blank">
+                            <i class="fab fa-linkedin fa-3x" style="color:white"></i>
+                        </a>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </div>
+    <div class="row">
+        <div class="col-xs-12 text-center">
+            <h3 class="text-orange" data-bind="text: sectionSubHeading2"
+                style="font-weight: bold;font-size: 35px; padding-bottom: 20px;"></h3>
+        </div>
+    </div>
+    <div class="row">
+        <div data-bind="foreach: juri2">
+            <div class="col-lg-3 col-sm-6">
+                <div class="containerh team-member">
+                    <img alt="juri" alt="juri" 
+                        class="img-responsive img-center img-circle img-thumbnail img-jury"
+                        data-bind="attr: {src: foto}">
+                    <div class="overlayh img-responsive img-circle img-center img-jury">
+                        <div class="texth" data-bind="text: nome"></div>
+                        <div class="texth2" data-bind="text: descricao"></div>
+
+                        <a data-bind="attr: {href: conta}" 
+                            target="_blank">
+                            <i class="fab fa-linkedin fa-3x" style="color:white"></i>
+                        </a>
+                    </div>    
+                </div>
+            </div>
+        </div>
+    </div>
+</div>
 
 <div class="container1 division-blue division-main" data-bind="with: team" id="equipa">
     <div class="row">
