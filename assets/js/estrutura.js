@@ -39,7 +39,7 @@ $(document).ready(function () {
         },
         entrada: {
             logo: "assets/img/logos/ebec-aveiro-color.png",
-            title: "14, 15, 16, 17 e 20 de março<br class='hidden-xs'> de 2021"
+            title: "14, 15, 16, 17 e 20 de março<br class='hidden-xs'> de 2022"
         },
         ebecAveiro: {
             sectionHeading: "EBEC Aveiro",
@@ -47,17 +47,17 @@ $(document).ready(function () {
                 {title: "Ronda Local", classe: "fa-map-pin"},
                 {title: "Modalidades", classe: "fa-tools"},
                 //{title: "Formação", classe: "fa-chalkboard-teacher"},
-                {title: "Ronda Nacional", classe: "fa-award"},
+                {title: "Ronda Ibérica", classe: "fa-award"},
             ],
             seccoes: {
                 seccao1: {
                     ps: [
                         "É com prazer que o <b style='color:orange'>BEST Aveiro</b> organiza anualmente " +
                         "uma das 88 fases locais do projeto EBEC.",
-                        "Com a próxima edição da competição a ocorrer em <b style='color:orange'>abril de 2021</b>, evento que tem vindo a contar com um " +
+                        "Com a próxima edição da competição a ocorrer em <b style='color:orange'>2022</b>, evento que tem vindo a contar com um " +
                         "grande número de participantes em todas as edições, consideramo-lo um dos eventos de maior destaque " +
                         "do BEST Aveiro. Direcionado aos alunos da Universidade de Aveiro, a EBEC Aveiro pretende ser um " +
-                        "momento onde criatividade, desafio, energia, flexibilidade e espírito de equipa são postos em prática. ",
+                        "momento onde inovação, criatividade, desafio, energia, flexibilidade e espírito de equipa são postos em prática. ",
                         "No sentido de promover uma melhor relação entre estudantes e empresas, a EBEC Aveiro organizará, " +
                         "à parte da competição, uma <span style='color:orange'>tarde empresarial online</span>" +
                         ", que irá ocorrer no dia 7 de abril.",
@@ -77,8 +77,8 @@ $(document).ready(function () {
                                 "12 horas de prova, sendo entregue aos participantes no início da competição."
                         },
                         {
-                            title: "Team Design",
-                            corpo: "Os participantes terão a oportunidade de construir um protótipo que solucione um desafio, " +
+                            title: "Innovative Design",
+                            corpo: "Os participantes terão a oportunidade de construir um protótipo inovador que solucione um desafio, " +
                                 "colocado por uma empresa, com acesso a recursos limitados. Os protótipos serão posteriormente " +
                                 "avaliados por um júri com base em parâmetros previamente definidos pela organização."
                         }
@@ -193,12 +193,12 @@ $(document).ready(function () {
                 " Lê o regulamento que se encontra <a href='Regulamento.pdf' target='_blank'>aqui</a> e as guidelines presentes <a href='Guidelines.pdf' target=\"_blank\">aqui</a>.",
                 "Regista-te no site do BEST. Podes fazê-lo " +
                 "<a target='_blank' href='https://www.best.eu.org/account/registration.jsp'>aqui</a>.",
-                " Efetua a pré-inscrição na EBEC Aveiro 2021. Podes fazê-lo " +
+                " Efetua a pré-inscrição na EBEC Aveiro 2022. Podes fazê-lo " +
                 "<a href=\"https://www.best.eu.org/event/localDetails.jsp?event=m6c42vb\" target=\"_blank\">aqui</a>.",
                 " Indica o nome da tua equipa. Todos os elementos da equipa devem indicar o mesmo nome.",
                 " Preenche os dados pedidos. Todos os campos deverão ser preenchidos, à exceção do campo \"Motivation Letter\", " +
                 "que é de preenchimento facultativo. Clica em 'Apply' para finalizares esta parte.",
-                "Já tens equipa? Então terminaste a tua pré-inscrição para a EBEC Aveiro 2021. Brevemente irás " +
+                "Já tens equipa? Então terminaste a tua pré-inscrição para a EBEC Aveiro 2022. Brevemente irás " +
                 "receber um e-mail de confirmação de inscrição com mais informação sobre o evento."
             ]
         },
@@ -225,7 +225,7 @@ $(document).ready(function () {
                         "pessoas fantásticas na minha própria universidade, criei laços mais fortes com os meus colegas " +
                         "de equipa e aprendi imenso ao investigar e experimentar soluções para os problemas propostos. Vale, " +
                         "sem dúvida, a pena ",
-                    final: "Francisco Power<br>Vencedor da EBEC Challenge Aveiro 2018<br>Modalidade: Team Design"
+                    final: "Francisco Power<br>Vencedor da EBEC Challenge Aveiro 2018<br>Modalidade: Innovative Design"
                 },
                 {
                     foto: "assets/img/testimonials/3.jpg",
@@ -278,7 +278,7 @@ $(document).ready(function () {
                 },
                 {
                     p: "Quando tempo dura a competição?",
-                    r: "Tens 24 horas para construir o teu protótipo, caso participes no <i>Team Design</i>, ou arranjar uma " +
+                    r: "Tens 24 horas para construir o teu protótipo, caso participes no <i>Innovative Design</i>, ou arranjar uma " +
                         "solução para o problema de <i>Case Study</i>. A apresentação do teu projeto será noutro dia a anunciar."
                 },
                 {
@@ -341,7 +341,7 @@ $(document).ready(function () {
         juri: {
             sectionHeading: "Júri",
             sectionSubHeading: "Este será o juri que avaliará o teu trabalho",
-            sectionSubHeading1: "TEAM DESIGN",
+            sectionSubHeading1: "INNOVATIVE DESIGN",
             sectionSubHeading2: "CASE STUDY",
             
             juri1: [
@@ -381,24 +381,22 @@ $(document).ready(function () {
         team: {
             sectionHeading: "Equipa",
             equipa: [
-                {nome: "Beatriz Aleixo", role: "Coordenadora da EBEC Aveiro 2021", foto: "assets/img/team/vasco.jpg"},
-                {nome: "Inês Leite", role: "Coordenadora da EBEC Aveiro 2021", foto: "assets/img/team/vasco.jpg"},
-                {nome: "Fábio Freitas", role: "Responsável de Tópico", foto: "assets/img/team/vasco.jpg"},
-                {nome: "Carolina Rodrigues", role: "Responsável de Relações Empresariais", foto: "assets/img/team/vasco.jpg"},
-                
+                {nome: "Vasco Pinho", role: "Coordenadora da EBEC Aveiro 2022", foto: "assets/img/team/vasco.jpg"},
+                {nome: "Ana Poças", role: "Responsável de Tópico", foto: "assets/img/team/vasco.jpg"},
+                {nome: "José Silva", role: "Responsável de Relações Empresariais", foto: "assets/img/team/vasco.jpg"},
+                {nome: "Bruno Feitais", role: "Responsável de Tecnologias de Informação", foto: "assets/img/team/vasco.jpg"},
             ],
             equipa2: [
-                {nome: "Pedro Marques", role: "Responsável de Tecnologias de Informação", foto: "assets/img/team/vasco.jpg"},
-                {nome: "Maria Canhoto", role: "Responsável de Marketing", foto: "assets/img/team/vasco.jpg"},
-                {nome: "Maria João Martins", role: "Responsável de Logística", foto: "assets/img/team/vasco.jpg"},
-                {nome: "Bruna Cruz", role: "Responsável de Participantes", foto: "assets/img/team/vasco.jpg"},
-                   
+                {nome: "Maria Canhoto", role: "Responsável de Design", foto: "assets/img/team/vasco.jpg"},
+                {nome: "Ana Andrade", role: "Responsável de Logística", foto: "assets/img/team/vasco.jpg"},
+                {nome: "Tomás Silva", role: "Responsável de Participantes", foto: "assets/img/team/vasco.jpg"},
+                {nome: "Tiago Paralta", role: "Responsável de Relações Públicas", foto: "assets/img/team/vasco.jpg"},               
             ]
         },
         becomePartner: {
             sectionHeading: "Torne-se Nosso parceiro",
             corpo: [
-                "Ao tornar-se nosso parceiro, a sua empresa estará integrada na organização da EBEC Aveiro 2021, com uma " +
+                "Ao tornar-se nosso parceiro, a sua empresa estará integrada na organização da EBEC Aveiro 2022, com uma " +
                 "equipa dinâmica e empenhada em satisfazer as necessidades de desenvolvimento extracurricular dos estudantes, " +
                 "bem como os interesses da sua empresa. Terá a oportunidade de participar numa tarde empresarial online. ",
                 "<span class=\"big-number text-blue\">•</span>Marque presença na tarde empresarial e exponha a sua empresa, produtos e projetos. Terá a oportunidade " +
@@ -406,7 +404,7 @@ $(document).ready(function () {
                 "<span class=\"big-number text-blue\">•</span>Beneficie do acesso aos currículos disponibilizados, de forma opcional, pelos participantes do evento " +
                 "e estudantes da Universidade de Aveiro.",
                 "<span class=\"big-number text-blue\">•</span>Direito a trabalhar em sintonia com o Topic Group podendo propor provas, tanto de Case Study como de " +
-                "Team Design, que serão realizadas pelos participantes.",
+                "Innovative Design, que serão realizadas pelos participantes.",
                 "Como nosso parceiro, beneficiará de interações estreitas com estudantes da universidade de Aveiro, através " +
                 "de uma tarde empresarial, conseguindo recolher diversas perceções através de " +
                 "uma intensa partilha de conhecimentos.",
@@ -414,7 +412,7 @@ $(document).ready(function () {
                 "pelo seu dinamismo, inovação e empreendedorismo, através de promoção disponibilizada pelo BEST Aveiro.",
                 "Caso esteja interessado em ser nosso parceiro, contacte-nos por meio dos " +
                 "<a style=\"color: #428BFF\" href=\"#contactos\">Contactos</a> da equipa ou através das " +
-                "<a style=\"color: #428BFF\" href=\"#info\">Informações</a> do Best Aveiro."
+                "<a style=\"color: #428BFF\" href=\"#info\">Informações</a> do BEST Aveiro."
             ]
         },
         contacts: {

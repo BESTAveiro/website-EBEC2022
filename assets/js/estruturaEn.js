@@ -46,17 +46,17 @@ $(document).ready(function () {
                 {title: "Local Round", classe: "fa-map-pin"},
                 {title: "Modalities", classe: "fa-tools"},
                 //{title: "Formation", classe: "fa-chalkboard-teacher"},
-                {title: "National Round", classe: "fa-award"},
+                {title: "Iberian Round", classe: "fa-award"},
             ],
             seccoes: {
                 seccao1: {
                     ps: [
-                        "<b style=\"color:orange\">BEST Aveiro</b> has the pleasure to announce the EBEC Aveiro 2021, one " +
+                        "<b style=\"color:orange\">BEST Aveiro</b> has the pleasure to announce the EBEC Aveiro 2022, one " +
                         "of the 88 local stages of the EBEC project, with the duration of 24 hours.",
-                        " With the next edition happening in <b style=\"color:orange\">April of 2021</b>, the event has been " +
+                        " With the next edition happening in <b style=\"color:orange\">2022</b>, the event has been " +
                         "counting with a bigger number of participants each year. Considered one of the most outstanding " +
                         "events of BEST Aveiro, conceptualized with an eye at the students of the University of Aveiro, " +
-                        "EBEC Aveiro aims to be a moment where creativity, challenge, energy, flexibility and team spirit " +
+                        "EBEC Aveiro aims to be a moment where innovation creativity, challenge, energy, flexibility and team spirit " +
                         "are put into practice.",
                         "In order to promote a better relationship between students and companies, the EBEC Aveiro organization " +
                         "will promote, apart from the competition an online company fair, on April 7th.",
@@ -76,8 +76,8 @@ $(document).ready(function () {
                                 "take up to 12 hours to solve, being delivered to the participants at the beginning of the competition."
                         },
                         {
-                            title: "Team Design",
-                            corpo: "Participants will have the opportunity to build a prototype that solves a challenge " +
+                            title: "Innovative Design",
+                            corpo: "Participants will have the opportunity to build an innovative prototype that solves a challenge " +
                                 "posed by a company with access to limited resources. The prototypes will then be evaluated " +
                                 "by a jury based on parameters previously defined by the organization."
                         }
@@ -190,7 +190,7 @@ $(document).ready(function () {
                 " Read the regulament that can be found <a href=\"Regulamento.pdf\" target=\"_blank\">here</a> and the guidelines present <a href='\Guidelines.pdf' target=\"_blank\">here</a>.",
                 " Sign up on BEST Website. You can do it " +
                 "<a href=\"https://www.best.eu.org/account/registration.jsp\" target=\"_blank\">here</a>.",
-                " Do a pre-registration on EBEC Aveiro 2021. You can do it " +
+                " Do a pre-registration on EBEC Aveiro 2022. You can do it " +
                 "<a href=\"https://www.best.eu.org/event/localDetails.jsp?event=m6c42vb\" target=\"_blank\">here</a>.",
                 " Write the name of your team. All the members of the team have to write the same name.",
                 " Fill all the fields, with exception of 'Motivation Letter', which it's optional. Click on 'Apply' to finish " +
@@ -222,7 +222,7 @@ $(document).ready(function () {
                         "It was thanks to EBEC that I have made friends in different universities and met fantastic people " +
                         "at my own university, created stronger bonds with my team's colleagues and learned a lot about " +
                         "investigate and try solutions to the given problems. It is worth, with no doubt",
-                    final: "Francisco Power<br>Winner of EBEC Challenge Aveiro 2018<br>Modality: Team Design"
+                    final: "Francisco Power<br>Winner of EBEC Challenge Aveiro 2018<br>Modality: Innovative Design"
                 },
                 {
                     foto: "assets/img/testimonials/3.jpg",
@@ -266,7 +266,7 @@ $(document).ready(function () {
         faqs: {
             sectionHeading: "FAQ",
             sectionSubHeading: "Frequently Asked Questions",
-            sectionSubHeading1: "TEAM DESIGN",
+            sectionSubHeading1: "INNOVATIVE DESIGN",
             sectionSubHeading2: "CASE STUDY",
             vetor: [
                 {
@@ -339,7 +339,7 @@ $(document).ready(function () {
         juri: {
             sectionHeading: "Jury",
             sectionSubHeading: "Here it the juri that will evaluate your work",
-            sectionSubHeading1: "TEAM DESIGN",
+            sectionSubHeading1: "INNOVATIVE DESIGN",
             sectionSubHeading2: "CASE STUDY",
             
             juri1: [
@@ -376,25 +376,24 @@ $(document).ready(function () {
             sectionSubHeading2: "promo Partners"
         },
         team: {
-            sectionHeading: "The Team",
-            equipa: [
-                {nome: "Beatriz Aleixo", role: "Coordinator of EBEC Aveiro 2021", foto: "assets/img/team/vasco.jpg"},
-                {nome: "Inês Leite", role: "Coordinator of EBEC Aveiro 2021", foto: "assets/img/team/vasco.jpg"},
-                {nome: "Fábio Freitas", role: "Topic Responsible", foto: "assets/img/team/vasco.jpg"},
-                {nome: "Carolina Rodrigues", role: "Corporate Relations Responsible", foto: "assets/img/team/vasco.jpg"},
-                
-            ],
-            equipa2: [
-                {nome: "Pedro Marques", role: "Information Tecnology Responsible", foto: "assets/img/team/vasco.jpg"},
-                {nome: "Maria Canhoto", role: "Marketing Responsible", foto: "assets/img/team/vasco.jpg"},
-                {nome: "Maria João Martins", role: "Logistic Responsible", foto: "assets/img/team/vasco.jpg"},
-                {nome: "Bruna Cruz", role: "Participants Responsible", foto: "assets/img/team/vasco.jpg"},
-                ]
+                sectionHeading: "The Team",
+                equipa: [
+                    {nome: "Vasco Pinho", role: "Coordinator of EBEC Aveiro 2022", foto: "assets/img/team/vasco.jpg"},
+                    {nome: "Ana Poças", role: "Topic Responsible", foto: "assets/img/team/vasco.jpg"},
+                    {nome: "José Silva", role: "Corporate Relations Responsible", foto: "assets/img/team/vasco.jpg"},
+                    {nome: "Bruno Feitais", role: "Information Tecnology Responsible", foto: "assets/img/team/vasco.jpg"},
+                ],
+                equipa2: [
+                    {nome: "Maria Canhoto", role: "Design Responsible", foto: "assets/img/team/vasco.jpg"},
+                    {nome: "Ana Andrade", role: "Logistic Responsible", foto: "assets/img/team/vasco.jpg"},
+                    {nome: "Tomás Silva", role: "Participants Responsible", foto: "assets/img/team/vasco.jpg"},
+                    {nome: "Tiago Paralta", role: "Public Relations Responsible", foto: "assets/img/team/vasco.jpg"},               
+                ]    
         },
         becomePartner: {
             sectionHeading: "Become Our Partner",
             corpo: [
-                "By becoming our partner, your company will be integrated in the organization of EBEC Aveiro 2021, with " +
+                "By becoming our partner, your company will be integrated in the organization of EBEC Aveiro 2022, with " +
                 "a dynamic team, that is committed to satisfy the needs of extracurricular activities development of the " +
                 "students, as much as the interests of your company. You will have the opportunity to participate in our " +
                 "online Company Fair.",
@@ -404,7 +403,7 @@ $(document).ready(function () {
                 "<span class='big-number text-blue'>•</span> Benefit of access to the curricula, optionally made available " +
                 "by the competition's participants and students of University of Aveiro.",
                 "<span class='big-number text-blue'>•</span> The right to work with the Topic Group, being able " +
-                "to propose challenges either of Case Study or Team Design, to be solved by the participants.",
+                "to propose challenges either of Case Study or Innovative Design, to be solved by the participants.",
                 "As our partner, you will benefit of narrow interactions with students of the University of Aveiro, through " +
                 "our online company fair, managing to collect many perceptions through our intense knowledge " +
                 "sharing.",
