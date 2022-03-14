@@ -85,7 +85,7 @@ $(document).ready(function () {
                 },
                 /*seccao3: [
                     "The BEST Aveiro will organize again one more edition of the <b class=\"text-orange\">BEST Training Days</b>, " +
-                    "from EBEC Aveiro 2021, where you will have the opportunity to develop your abilities in a formation.",
+                    "from EBEC Aveiro 2022, where you will have the opportunity to develop your abilities in a formation.",
                     "The formation will occur during the afternoon of <b class='text-orange'>March 15th</b> and it is restricted " +
                     "to the participants.",
                     "All participants on the formation will receive a participation certificate."
@@ -195,12 +195,12 @@ $(document).ready(function () {
                 " Write the name of your team. All the members of the team have to write the same name.",
                 " Fill all the fields, with exception of 'Motivation Letter', which it's optional. Click on 'Apply' to finish " +
                 "this part.",
-                "Already have a team? So you finish your pre-registration to EBEC Aveiro 2021. Soon you will receive an " +
+                "Already have a team? So you finish your pre-registration to EBEC Aveiro 2022. Soon you will receive an " +
                 "email with confirmation of registration and more information about the event."
             ]
         },
         testimonials: {
-            sectionHeading: "Testi<span class=\"hidden-lg hidden-md hidden-sm\">-<br></span>monials",
+            sectionHeading: "Testimonials",
             sectionSubheading: "Professors and Participants",
             testemunhos: [
                 {
@@ -477,7 +477,7 @@ $(document).ready(function () {
                     classe: "fa-envelope"
                 },
             ],
-            sectionHeading: "Infor<span class=\"hidden-lg hidden-md hidden-sm\">-<br></span>mations",
+            sectionHeading: "Informations",
             icones: [
                 {ref: "http://bestaveiro.web.ua.pt/", classe: "fa-globe"},
                 {ref: "https://www.facebook.com/EBEC.aveiro/", classe: "fa-facebook"},

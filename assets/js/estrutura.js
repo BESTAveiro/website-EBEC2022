@@ -203,7 +203,7 @@ $(document).ready(function () {
             ]
         },
         testimonials: {
-            sectionHeading: "Teste<span class='hidden-lg hidden-md hidden-sm'>-<br></span>munhos",
+            sectionHeading: "Testemunhos",
             sectionSubheading: "Professores e Participantes",
             testemunhos: [
                 {
@@ -477,7 +477,7 @@ $(document).ready(function () {
                     classe: "fa-envelope"
                 },
             ],
-            sectionHeading: "Infor<span class=\"hidden-lg hidden-md hidden-sm\">-<br></span>mações",
+            sectionHeading: "Informações",
             icones: [
                 {ref: "http://bestaveiro.web.ua.pt/", classe: "fa-globe"},
                 {ref: "https://www.facebook.com/EBEC.aveiro/", classe: "fa-facebook"},
