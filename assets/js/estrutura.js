@@ -270,18 +270,17 @@ $(document).ready(function () {
             sectionSubHeading: "Frequently Asked Questions",
             vetor: [
                 {
-                    p: "Posso inscrever-me na Tarde Empresarial Online sem me inscrever na EBEC?",
-                    r: "Sim, podes! Para isso, basta preencher o formulário que se encontra <a href='https://docs.google.com/forms/d/e/1FAIpQLSfL-ZEYDy59C62rQrAxoomJ-_YIxZWWzDA2D-EuGfG69QUHCA/viewform' target='_blank'>aqui</a>."
+                    p: "Posso ir à Feira de Empresas sem me inscrever na EBEC?",
+                    r: "Sim, podes!"
                 },
                 {
                     p: "Quando tempo dura a competição?",
                     r: "Tens 24 horas para construir o teu protótipo, caso participes no <i>Innovative Design</i>, ou arranjar uma " +
-                        "solução para o problema de <i>Case Study</i>. A apresentação do teu projeto será noutro dia a anunciar."
+                        "solução para o problema de <i>Case Study</i>. A apresentação do teu projeto será dia 6 de Abril."
                 },
                 {
                     p: "Quantos membros pode ter uma equipa?",
-                    r: "Cada equipa é constituída <u>sempre</u> por 4 elementos. No entanto, podes candidatar-te a título individual " +
-                    "e serás posteriormente alocado a uma equipa."
+                    r: "Cada equipa é constituída <u>sempre</u> por 4 elementos"
                 },
                 {
                     p: "Quando é que saberemos qual é a prova que teremos que realizar?",

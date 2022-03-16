@@ -268,17 +268,17 @@ $(document).ready(function () {
             sectionSubHeading2: "CASE STUDY",
             vetor: [
                 {
-                    p: "Can I sign up for the Online Company Fair without participating in EBEC?",
-                    r: "Yes, you can! You just need to fill in the form <a href='https://docs.google.com/forms/d/e/1FAIpQLSfL-ZEYDy59C62rQrAxoomJ-_YIxZWWzDA2D-EuGfG69QUHCA/viewform' target='_blank'>here</a>."
+                    p: "Can I go to the Company Fair without participating in EBEC?",
+                    r: "Yes, you can!"
                 },
                 {
                     p: "How long does the competition last?",
                     r: "You have 24 hours to build your prototype or get a solution for your <i>Case Study</i>. " +
-                        "The presentation of your project will be on the next wednesday (march 20th)."
+                        "The presentation of your project will be on 6th of April."
                 },
                 {
                     p: "How many members can a team have?",
-                    r: "Each team must <u>always</u> have 4 members. However, you can apply individually, in which case you will then be assigned a team."
+                    r: "Each team must <u>always</u> have 4 members."
                 },
                 {
                     p: "When will we know what challenge we will have?",
