@@ -819,6 +819,10 @@ body1{
   padding-left: 15px;
   padding-right: 15px;
 }
+.padding-8px-lr {
+  padding-left: 6px;
+  padding-right: 6px;
+}
 .padding-5px-tb {
   padding-top: 5px;
   padding-bottom: 5px;

@@ -90,11 +90,11 @@ $(document).ready(function () {
                     "de participação na formação."
                 ],*/
                 seccao3: [
-                    "A EBEC Portugal é a final nacional da competição de Engenharia do BEST. ",
-                    "A EBEC Portugal é uma Ronda Nacional organizada por 5 Grupos Locais do BEST de norte a sul do país. " +
-                    "Na fase Nacional irão competir os vencedores das diferentes rondas locais, de 5 Universidades Portuguesas. ",
-                    "\nEste ano, a Ronda Nacional ocorrerá entre 14 e 17 de maio e está a ser organizada pelo Grupo Local do BEST em Coimbra",
-                    "Para mais informações visita o <a class='text-orange' href='http://ebecportugal.pt/' " +
+                    "A EBEC Iberia é a final Regional da competição de Engenharia do BEST. ",
+                    "A EBEC Iberia é uma Ronda Regional organizada por 7 Grupos Regionais do BEST. " +
+                    "Na fase Regional irão competir os vencedores das diferentes rondas locais, de 5 Universidades Portuguesas 2 2 Universidades Espanholas. ",
+                    "\nEste ano, a Ronda Regional ocorrerá entre 13 e 16 de maio e está a ser organizada pelo Grupo Local do BEST Porto",
+                    "Para mais informações visita o <a class='text-orange' href='https://www.facebook.com/people/EBEC-Iberia/100077404624191/' " +
                     "target='_blank'>site</a>."
                 ]
             }
@@ -343,29 +343,29 @@ $(document).ready(function () {
             
             juri1: [
                 {
-                    nome: "Margarida Facão",
+                    nome: "...",
                     descricao: "...",
-                    foto: 'assets/img/juri/vasco.jpg',
-                    conta: "https://www.linkedin.com/in/margarida-facao-0233b688/"
-                },
-                {
-                    nome: "Fábio Fernandes",
-                    descricao: "...",
-                    foto: "assets/img/juri/vasco.jpg",
-                    conta: "https://www.linkedin.com/in/fábio-fernandes-07274410a/"
-                },
-                {nome: "Paulo Lopes", descricao: "...", foto: "assets/img/juri/vasco.jpg", conta: "#"}
-            ],
-            juri2: [
-                {nome: "Nuno Lopes", descricao: "...", foto: "assets/img/juri/vasco.jpg", conta: "https://www.linkedin.com/in/nuno-lopes-82aa82a7/"},
-                {nome: "Nuno Durães", descricao: "...", foto: "assets/img/juri/vasco.jpg", conta: "#"},
-                {
-                    nome: "Luís Cadillon",
-                    descricao: "...",
-                    foto: "assets/img/juri/vasco.jpg",
+                    foto: 'assets/img/juri/default.jpg',
                     conta: "#"
                 },
-                {nome: "João Veloso", descricao: "...", foto: "assets/img/juri/vasco.jpg", conta: "#"},
+                {
+                    nome: "...",
+                    descricao: "...",
+                    foto: "assets/img/juri/default.jpg",
+                    conta: "#"
+                },
+                {nome: "...", descricao: "...", foto: "assets/img/juri/default.jpg", conta: "#"}
+            ],
+            juri2: [
+                {nome: "...", descricao: "...", foto: "assets/img/juri/default.jpg", conta: "#"},
+                {nome: "...", descricao: "...", foto: "assets/img/juri/default.jpg", conta: "#"},
+                {
+                    nome: "...",
+                    descricao: "...",
+                    foto: "assets/img/juri/default.jpg",
+                    conta: "#"
+                },
+                {nome: "...", descricao: "...", foto: "assets/img/juri/default.jpg", conta: "#"},
                 
             ]
             
@@ -378,16 +378,16 @@ $(document).ready(function () {
         team: {
             sectionHeading: "Equipa",
             equipa: [
-                {nome: "Vasco Pinho", role: "Coordenadora da EBEC Aveiro 2022", foto: "assets/img/team/vasco.jpg"},
-                {nome: "Ana Poças", role: "Responsável de Tópico", foto: "assets/img/team/vasco.jpg"},
-                {nome: "José Silva", role: "Responsável de Relações Empresariais", foto: "assets/img/team/vasco.jpg"},
-                {nome: "Bruno Feitais", role: "Responsável de Tecnologias de Informação", foto: "assets/img/team/vasco.jpg"},
+                {nome: "Vasco Pinho", role: "Coordenador da EBEC Aveiro 2022", foto: "assets/img/team/vasco.jpg"},
+                {nome: "Ana Poças", role: "Responsável de Tópico", foto: "assets/img/team/AnaPoças.jpeg"},
+                {nome: "José Silva", role: "Responsável de Relações Empresariais", foto: "assets/img/team/JoseSilva.jpeg"},
+                {nome: "Bruno Feitais", role: "Responsável de Tecnologias de Informação", foto: "assets/img/team/bruno.jpg"},
             ],
             equipa2: [
-                {nome: "Maria Canhoto", role: "Responsável de Design", foto: "assets/img/team/vasco.jpg"},
-                {nome: "Ana Andrade", role: "Responsável de Logística", foto: "assets/img/team/vasco.jpg"},
-                {nome: "Tomás Silva", role: "Responsável de Participantes", foto: "assets/img/team/vasco.jpg"},
-                {nome: "Tiago Paralta", role: "Responsável de Relações Públicas", foto: "assets/img/team/vasco.jpg"},               
+                {nome: "Maria Canhoto", role: "Responsável de Design", foto: "assets/img/team/mariac.jpg"},
+                {nome: "Ana Andrade", role: "Responsável de Logística", foto: "assets/img/team/anaandrade.jpg"},
+                {nome: "Tomás Silva", role: "Responsável de Participantes", foto: "assets/img/team/tomas.jpg"},
+                {nome: "Tiago Paralta", role: "Responsável de Relações Públicas", foto: "assets/img/team/paralta.jpg"},               
             ]
         },
         becomePartner: {
@@ -424,7 +424,7 @@ $(document).ready(function () {
                     email2: " vascopinho24@gmail.com"
                 },
                 {
-                    foto: "assets/img/team/vasco.jpg",
+                    foto: "assets/img/team/ines.jpg",
                     nome: "Inês Leite",
                     role: "Presidente do BEST Aveiro",
                     tel: "+(351) 914 241 456",
@@ -432,7 +432,7 @@ $(document).ready(function () {
                     email2: " inesleite200020@gmail.com "
                 },
                 {
-                    foto: "assets/img/team/vasco.jpg",
+                    foto: "assets/img/team/JoseSilva.jpeg",
                     nome: "José Silva",
                     role: "Responsável de Relações Empresariais",
                     tel: "+(351) 918 311 076",

@@ -75,9 +75,9 @@ $(document).ready(function () {
                         },
                         {
                             title: "Innovative Design",
-                            corpo: "Participants will have the opportunity to build an innovative prototype that solves a challenge " +
-                                "posed by a company with access to limited resources. The prototypes will then be evaluated " +
-                                "by a jury based on parameters previously defined by the organization."
+                            corpo: "Participants combine their creativity and knowledge to develop new technological designs or " +
+                                "existing designs within a 24-hour improvement period. Your presentation must take into account " +
+                                "the technical, social, environmental and economic impact of your design."
                         }
                     ]
                 },
@@ -89,11 +89,11 @@ $(document).ready(function () {
                     "All participants on the formation will receive a participation certificate."
                 ],*/
                 seccao4: [
-                    "The EBEC Portugal is the national final competition of engineering of BEST.",
-                    "The EBEC Portugal is a National Round organized by 5 Local Groups of BEST from north to south of the " +
-                    "country, where the winners of the local EBECs will compete against each other.",
-                    "\This year, the National Round will be organized by the BEST Local Group in Coimbra between the 14th an 17th of may.",
-                    "For more informations, visit the <a class=\"text-orange\" href=\"http://ebecportugal.pt/\" " +
+                    "The EBEC Iberian is the Regional final competition of engineering of BEST.",
+                    "The EBEC Iberian is a Regional Round organized by 7 Regional Groups of BEST, " +
+                    "where the winners of the Regional EBECs will compete against each other.",
+                    "\This year, the Regional Round will be organized by the BEST Local Group in Porto between the 13th an 16th of may.",
+                    "For more informations, visit the <a class=\"text-orange\" href=\"https://www.facebook.com/people/EBEC-Iberia/100077404624191/ \"" +
                     "target=\"_blank\">site</a>."
                 ]
             }
@@ -342,29 +342,29 @@ $(document).ready(function () {
             
             juri1: [
                 {
-                    nome: "Margarida Facão",
+                    nome: "...",
                     descricao: "...",
-                    foto: 'assets/img/juri/vasco.jpg',
-                    conta: "https://www.linkedin.com/in/margarida-facao-0233b688/"
-                },
-                {
-                    nome: "Fábio Fernandes",
-                    descricao: "...",
-                    foto: "assets/img/juri/vasco.jpg",
-                    conta: "https://www.linkedin.com/in/fábio-fernandes-07274410a/"
-                },
-                {nome: "Paulo Lopes", descricao: "...", foto: "assets/img/juri/vasco.jpg", conta: "#"}
-            ],
-            juri2: [
-                {nome: "Nuno Lopes", descricao: "...", foto: "assets/img/juri/vasco.jpg", conta: "https://www.linkedin.com/in/nuno-lopes-82aa82a7/"},
-                {nome: "Nuno Durães", descricao: "...", foto: "assets/img/juri/vasco.jpg", conta: "#"},
-                {
-                    nome: "Luís Cadillon",
-                    descricao: "...",
-                    foto: "assets/img/juri/vasco.jpg",
+                    foto: "assets/img/juri/default.jpg",
                     conta: "#"
                 },
-                {nome: "João Veloso", descricao: "...", foto: "assets/img/juri/vasco.jpg", conta: "#"},
+                {
+                    nome: "...",
+                    descricao: "...",
+                    foto: "assets/img/juri/default.jpg",
+                    conta: "#"
+                },
+                {nome: "...", descricao: "...", foto: "assets/img/juri/default.jpg", conta: "#"}
+            ],
+            juri2: [
+                {nome: "...", descricao: "...", foto: "assets/img/juri/default.jpg", conta: "#"},
+                {nome: "...", descricao: "...", foto: "assets/img/juri/default.jpg", conta: "#"},
+                {
+                    nome: "...",
+                    descricao: "...",
+                    foto: "assets/img/juri/default.jpg",
+                    conta: "#"
+                },
+                {nome: "...", descricao: "...", foto: "assets/img/juri/default.jpg", conta: "#"},
                 
             ]
         },
@@ -377,15 +377,15 @@ $(document).ready(function () {
                 sectionHeading: "The Team",
                 equipa: [
                     {nome: "Vasco Pinho", role: "Coordinator of EBEC Aveiro 2022", foto: "assets/img/team/vasco.jpg"},
-                    {nome: "Ana Poças", role: "Topic Responsible", foto: "assets/img/team/vasco.jpg"},
-                    {nome: "José Silva", role: "Corporate Relations Responsible", foto: "assets/img/team/vasco.jpg"},
-                    {nome: "Bruno Feitais", role: "Information Tecnology Responsible", foto: "assets/img/team/vasco.jpg"},
+                    {nome: "Ana Poças", role: "Topic Responsible", foto: "assets/img/team/AnaPoças.jpeg"},
+                    {nome: "José Silva", role: "Corporate Relations Responsible", foto: "assets/img/team/JoseSilva.jpeg"},
+                    {nome: "Bruno Feitais", role: "Information Tecnology Responsible", foto: "assets/img/team/bruno.jpg"},
                 ],
                 equipa2: [
-                    {nome: "Maria Canhoto", role: "Design Responsible", foto: "assets/img/team/vasco.jpg"},
-                    {nome: "Ana Andrade", role: "Logistic Responsible", foto: "assets/img/team/vasco.jpg"},
-                    {nome: "Tomás Silva", role: "Participants Responsible", foto: "assets/img/team/vasco.jpg"},
-                    {nome: "Tiago Paralta", role: "Public Relations Responsible", foto: "assets/img/team/vasco.jpg"},               
+                    {nome: "Maria Canhoto", role: "Design Responsible", foto: "assets/img/team/mariac.jpg"},
+                    {nome: "Ana Andrade", role: "Logistic Responsible", foto: "assets/img/team/anaandrade.jpg"},
+                    {nome: "Tomás Silva", role: "Participants Responsible", foto: "assets/img/team/tomas.jpg"},
+                    {nome: "Tiago Paralta", role: "Public Relations Responsible", foto: "assets/img/team/paralta.jpg"},               
                 ]    
         },
         becomePartner: {
