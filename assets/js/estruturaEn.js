@@ -58,8 +58,6 @@ $(document).ready(function () {
                         "events of BEST Aveiro, conceptualized with an eye at the students of the University of Aveiro, " +
                         "EBEC Aveiro aims to be a moment where innovation creativity, challenge, energy, flexibility and team spirit " +
                         "are put into practice.",
-                        "In order to promote a better relationship between students and companies, the EBEC Aveiro organization " +
-                        "will promote, apart from the competition an online company fair, on April 7th.",
                         "For more informations check the FAQ section or contact us."
                     ],
                     //subscribe: "Subscribe now!",

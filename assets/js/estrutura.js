@@ -58,9 +58,6 @@ $(document).ready(function () {
                         "grande número de participantes em todas as edições, consideramo-lo um dos eventos de maior destaque " +
                         "do BEST Aveiro. Direcionado aos alunos da Universidade de Aveiro, a EBEC Aveiro pretende ser um " +
                         "momento onde inovação, criatividade, desafio, energia, flexibilidade e espírito de equipa são postos em prática. ",
-                        "No sentido de promover uma melhor relação entre estudantes e empresas, a EBEC Aveiro organizará, " +
-                        "à parte da competição, uma <span style='color:orange'>tarde empresarial online</span>" +
-                        ", que irá ocorrer no dia 7 de abril.",
                         "Para mais informações consulta a secção FAQ ou contacta-nos."
                     ],
                     /*subscribe: "Inscreve-te já!",*/
@@ -78,9 +75,9 @@ $(document).ready(function () {
                         },
                         {
                             title: "Innovative Design",
-                            corpo: "Os participantes terão a oportunidade de construir um protótipo inovador que solucione um desafio, " +
-                                "colocado por uma empresa, com acesso a recursos limitados. Os protótipos serão posteriormente " +
-                                "avaliados por um júri com base em parâmetros previamente definidos pela organização."
+                            corpo: "Os participantes combinam a sua criatividade e o seu conhecimento para desenvolver novos designs " +
+                                "tecnológicos ou melhorar designs já existentes, num período de 24h. A sua apresentação deve ter " +
+                                "em conta o impacto técnico, social, ambiental e económico no seu design."
                         }
                     ]
                 },
@@ -403,8 +400,8 @@ $(document).ready(function () {
                 "de trocar experiências com os estudantes num ambiente informal.",
                 "<span class=\"big-number text-blue\">•</span>Beneficie do acesso aos currículos disponibilizados, de forma opcional, pelos participantes do evento " +
                 "e estudantes da Universidade de Aveiro.",
-                "<span class=\"big-number text-blue\">•</span>Direito a trabalhar em sintonia com o Topic Group podendo propor provas, tanto de Case Study como de " +
-                "Innovative Design, que serão realizadas pelos participantes.",
+                "<span class=\"big-number text-blue\">•</span>Direito a trabalhar em sintonia com o Topic Group podendo propor provas, tanto de <i>Case Study</i> como de " +
+                "<i>Innovative Design</i>, que serão realizadas pelos participantes.",
                 "Como nosso parceiro, beneficiará de interações estreitas com estudantes da universidade de Aveiro, através " +
                 "de uma tarde empresarial, conseguindo recolher diversas perceções através de " +
                 "uma intensa partilha de conhecimentos.",
