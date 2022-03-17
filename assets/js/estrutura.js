@@ -187,15 +187,15 @@ $(document).ready(function () {
             sectionHeading: "Inscrição",
             sectionSubheading: "Nesta seccão indicar-te-emos os passos a seguir para efetuares a tua inscrição assim que esta estiver disponível", //"Para te inscreveres só precisas de efetuar os seguintes passos:",
             corpo: [
-                " Lê o regulamento que se encontra <a href='Regulamento.pdf' target='_blank'>aqui</a> e as guidelines presentes <a href='Guidelines.pdf' target=\"_blank\">aqui</a>.",
-                "Regista-te no site do BEST. Podes fazê-lo " +
-                "<a target='_blank' href='https://www.best.eu.org/account/registration.jsp'>aqui</a>.",
+                " Lê o regulamento que se encontra <a href='Regulamento.pdf' target='_blank'>aqui</a>.",
+                /*"Regista-te no site do BEST. Podes fazê-lo " +
+                "<a target='_blank' href='https://www.best.eu.org/account/registration.jsp'>aqui</a>.",*/
                 " Efetua a pré-inscrição na EBEC Aveiro 2022. Podes fazê-lo " +
-                "<a href=\"https://www.best.eu.org/event/localDetails.jsp?event=m6c42vb\" target=\"_blank\">aqui</a>.",
+                "<a href=\"https://forms.gle/yRhfizeu3LbTePq69\" target=\"_blank\">aqui</a>.",
                 " Indica o nome da tua equipa. Todos os elementos da equipa devem indicar o mesmo nome.",
-                " Preenche os dados pedidos. Todos os campos deverão ser preenchidos, à exceção do campo \"Motivation Letter\", " +
-                "que é de preenchimento facultativo. Clica em 'Apply' para finalizares esta parte.",
-                "Já tens equipa? Então terminaste a tua pré-inscrição para a EBEC Aveiro 2022. Brevemente irás " +
+                " Preenche os dados pedidos. Todos os campos deverão ser preenchidos, à exceção do campo \"Currículo\", " +
+                "que é de preenchimento facultativo. Clica em 'Enviar' para finalizares esta parte.",
+                "Terminaste a tua pré-inscrição para a EBEC Aveiro 2022. Brevemente irás " +
                 "receber um e-mail de confirmação de inscrição com mais informação sobre o evento."
             ]
         },

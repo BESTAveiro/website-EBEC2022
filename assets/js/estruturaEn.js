@@ -185,15 +185,15 @@ $(document).ready(function () {
             sectionHeading: "How to Apply",
             sectionSubheading: "Here we will show you the steps to follow in order to apply as soon as applications are avaliable", //"To apply you only need to follow this steps:",
             corpo: [
-                " Read the regulament that can be found <a href=\"Regulamento.pdf\" target=\"_blank\">here</a> and the guidelines present <a href='\Guidelines.pdf' target=\"_blank\">here</a>.",
-                " Sign up on BEST Website. You can do it " +
-                "<a href=\"https://www.best.eu.org/account/registration.jsp\" target=\"_blank\">here</a>.",
+                " Read the regulament that can be found <a href=\"Regulamento.pdf\" target=\"_blank\">here</a>.",
+                /*" Sign up on BEST Website. You can do it " +
+                "<a href=\"https://www.best.eu.org/account/registration.jsp\" target=\"_blank\">here</a>.",*/
                 " Do a pre-registration on EBEC Aveiro 2022. You can do it " +
-                "<a href=\"https://www.best.eu.org/event/localDetails.jsp?event=m6c42vb\" target=\"_blank\">here</a>.",
+                "<a href=\"https://forms.gle/yRhfizeu3LbTePq69\" target=\"_blank\">here</a>.",
                 " Write the name of your team. All the members of the team have to write the same name.",
-                " Fill all the fields, with exception of 'Motivation Letter', which it's optional. Click on 'Apply' to finish " +
+                " Fill all the fields, with exception of 'Currículo', which it's optional. Click on 'Enviar' to finish " +
                 "this part.",
-                "Already have a team? So you finish your pre-registration to EBEC Aveiro 2022. Soon you will receive an " +
+                "You finished your pre-registration to EBEC Aveiro 2022. Soon you will receive an " +
                 "email with confirmation of registration and more information about the event."
             ]
         },
@@ -424,7 +424,7 @@ $(document).ready(function () {
                     email2: " vascopinho24@gmail.com"
                 },
                 {
-                    foto: "assets/img/team/vasco.jpg",
+                    foto: "assets/img/team/ines.jpg",
                     nome: "Inês Leite",
                     role: "President of BEST Aveiro",
                     tel: "+(351) 914 241 456",
@@ -432,7 +432,7 @@ $(document).ready(function () {
                     email2: " inesleite200020@gmail.com "
                 },
                 {
-                    foto: "assets/img/team/vasco.jpg",
+                    foto: "assets/img/team/JoseSilva.jpeg",
                     nome: "José Silva",
                     role: "Corporate Relations Responsible",
                     tel: "+(351) 918 311 076",
