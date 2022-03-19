@@ -470,8 +470,8 @@ setInterval(updateTime, 100)
                             </td>
                             <td>
                                 <span class="bg-orange padding-5px-tb padding-8px-lr border-radius-5 margin-10px-bottom text-white font-size16  xs-font-size13">18:00-19:00</span>
-                                <div class="margin-10px-top font-size14 text-light-gray">Magma Studio<br>Workshop</div>
-                                <div class="font-size13 text-light-gray">(online)</div>
+                                <div class="margin-10px-top font-size14 text-light-gray">Magma Studio<br>Workshop (online)</div>
+                                <div class="font-size13 text-light-gray"></div>
                             </td>
                             <td>
                                 <span class="bg-orange padding-5px-tb padding-8px-lr border-radius-5 margin-10px-bottom text-white font-size16  xs-font-size13">10:00-10:30</span>
@@ -505,9 +505,9 @@ setInterval(updateTime, 100)
                             </td>
                             
                             <td>
-                                <span class="bg-orange padding-5px-tb padding-8px-lr border-radius-5 margin-10px-bottom text-white font-size16  xs-font-size13">10:30-11:30</span>
+                                <span class="bg-orange padding-5px-tb padding-8px-lr border-radius-5 margin-10px-bottom text-white font-size16  xs-font-size13">10:30-12:30</span>
                                 <div class="margin-10px-top font-size14 text-light-gray"></div>
-                                <div class="font-size13 text-light-gray">Opening<br>Session</div>
+                                <div class="font-size13 text-light-gray">Opening Session<br>Companies Presentations</div>
                             </td>
                             <td class="bg-gray">
 
@@ -531,30 +531,6 @@ setInterval(updateTime, 100)
 
                             </td>
                             <td>
-                                <span class="bg-orange padding-5px-tb padding-8px-lr border-radius-5 margin-10px-bottom text-white font-size16  xs-font-size13">11:30-12:30</span>
-                                <div class="margin-10px-top font-size14 text-light-gray"></div>
-                                <div class="font-size13 text-light-gray">Companies<br>Presentations</div>
-                            </td>
-                            <td class="bg-gray">
-
-                            </td>
-                            <td class="bg-gray">
-
-                            </td>
-                        </tr>
-
-                        <tr>
-                            <!--<td class="align-middle bg-sky text-black">12:00</td>-->
-                            <td class="bg-gray">
-
-                            </td>
-                            <td class="bg-gray">
-
-                            </td>
-                            <td class="bg-gray">
-
-                            </td>
-                            <td>
                                 <span class="bg-orange padding-5px-tb padding-8px-lr border-radius-5 margin-10px-bottom text-white font-size16  xs-font-size13">12:30-13:00</span>
                                 <div class="margin-10px-top font-size14 text-light-gray"></div>
                                 <div class="font-size13 text-light-gray">Pictures</div>
@@ -568,7 +544,7 @@ setInterval(updateTime, 100)
                         </tr>
 
                         <tr>
-                            <!--<td class="align-middle bg-sky text-black">13:00</td>-->
+                            <!--<td class="align-middle bg-sky text-black">12:00</td>-->
                             <td class="bg-gray">
 
                             </td>
@@ -592,6 +568,7 @@ setInterval(updateTime, 100)
                         </tr>
 
                         <tr>
+                            <!--<td class="align-middle bg-sky text-black">13:00</td>-->
                             <td class="bg-gray">
 
                             </td>
@@ -819,7 +796,7 @@ setInterval(updateTime, 100)
 <div class="division-gray division-main container1 " data-bind="with: partners" id="partners">
     <div class="row">
         <br>
-        <div class="col-lg-12 text-center">
+        <div class="col-lg-14 text-center">
             <h2 class="section-heading text-blue" data-bind="text: sectionHeading"></h2>
             <hr style="height:2px; border:none; color:#0a0a0a; background-color:#0a0a0a;" />
             <br>
@@ -827,11 +804,24 @@ setInterval(updateTime, 100)
     </div>
     <div class="row">
         <!--<div class="col-sm-offset-2 col-sm-4" style="height:180px">
-            <a href="https://www.forum.pt/">
-                <img alt="forum" class="img-responsive img-center" src="assets\img\partners\annual\forum.png"
+        <a href="https://www.forum.pt/">
+            <img alt="forum" class="img-responsive img-center" src="assets\img\partners\annual\forum.png"
+                 style="max-height:160px">
+        </a>
+    </div>-->
+
+        <div class="col-sm-12 text-center" style="height:160px">
+            <a href="https://magmastudio.pt/">
+                <img alt="Celfocus" class="img-responsive img-center" src="assets\img\partners\magma.png"
+                     style="max-height:120px">
+            </a>
+        </div>
+        <div class="col-sm-6 col-sm-offset-3" style="height:160px">
+            <a href="https://www.ubiwhere.com/">
+                <img alt="Atena, Automação Industrial" class="img-responsive img-center" src="assets\img\partners\ubiwhere.png"
                      style="max-height:160px">
             </a>
-        </div>-->
+        </div>
         <div class="col-sm-8" style="height:180px">
             <a href="https://www.ua.pt/">
                 <img alt="ua" class="img-responsive img-center" src="assets\img\partners\annual\ua.png"
@@ -844,47 +834,56 @@ setInterval(updateTime, 100)
                      style="max-height:160px">
             </a>
         </div>
-
-        <!--<div class="row">
-            <br>
-            <div class="col-sm-12 text-center">
-                <h2 class=" text-blue sectionSubHeading" data-bind="text: sectionSubHeading"></h2>
-            </div>
-        </div>
-        <div class="col-sm-6 col-sm-offset-3">
-            <img alt="sol" class="img-responsive img-center" src="assets\img\partners\media\sol.png"
-                 style="max-height:200px">
-        </div>
-        <div class="row">
-            <br>
-            <div class="col-sm-12 text-center">
-                <h2 class=" text-blue sectionSubHeading" data-bind="text: sectionSubHeading2"></h2>
-            </div>
-        </div>
-        <div class="col-sm-6" style="height:160px">
-            <a href="http://www.royalschool.pt">
-                <img alt="royalSchool" class="img-responsive img-center"
-                     src="assets\img\partners\promo\royalschool.png" style="max-height:140px">
-            </a>
-        </div>-->
         <!--<div class="col-sm-12 text-center" style="height:160px">
-            <a href="https://www.celfocus.com/home/index.php">
-                <img alt="Celfocus" class="img-responsive img-center" src="assets\img\partners\celfocus_logo.png"
-                     style="max-height:120px">
-            </a>
+        <a href="https://www.sqedio.com">
+            <img alt="Sqedio" class="img-responsive img-center"
+                 src="assets\img\partners\sqedio_logo.png" style="max-height:90px">
+        </a>
+    </div>-->
+        <!--
+    <div class="row">
+        <br>
+        <div class="col-sm-12 text-center">
+            <h2 class=" text-blue sectionSubHeading" data-bind="text: sectionSubHeading"></h2>
         </div>
-        <div class="col-sm-6 col-sm-offset-3" style="height:160px">
-            <a href="http://atena-ai.pt/en/">
-                <img alt="Atena, Automação Industrial" class="img-responsive img-center" src="assets\img\partners\at_logo.png"
-                     style="max-height:160px">
-            </a>
+    </div>
+
+    <div class="col-sm-6 col-sm-offset-3">
+        <img alt="sol" class="img-responsive img-center" src="assets\img\partners\media\sol.png"
+             style="max-height:200px">
+    </div>
+    <div class="row">
+        <br>
+        <div class="col-sm-12 text-center">
+            <h2 class=" text-blue sectionSubHeading" data-bind="text: sectionSubHeading2"></h2>
         </div>
-        <div class="col-sm-12 text-center" style="height:160px">
-            <a href="https://www.sqedio.com">
-                <img alt="Sqedio" class="img-responsive img-center"
-                     src="assets\img\partners\sqedio_logo.png" style="max-height:90px">
-            </a>
-        </div>-->
+    </div>
+    <div class="col-sm-6" style="height:160px">
+        <a href="http://www.royalschool.pt">
+            <img alt="royalSchool" class="img-responsive img-center"
+                 src="assets\img\partners\promo\royalschool.png" style="max-height:140px">
+        </a>
+    </div>
+    <div class="col-sm-6" style="height:160px">
+        <a href="https://www.uhu.pt/pt">
+            <img alt="UHU" class="img-responsive img-center" src="assets\img\partners\promo\UHU.png"
+                 style="max-height:120px">
+        </a>
+    </div>
+    <div class="col-sm-6" style="height:160px">
+        <a href="http://www.aguacastello.com/">
+            <img alt="Castello" class="img-responsive img-center" src="assets\img\partners\promo\castello.png"
+                 style="max-height:160px">
+        </a>
+    </div>
+
+    <div class="col-sm-6" style="height:160px">
+        <a>
+            <img alt="bocadolobo" class="img-responsive img-center"
+                 src="assets\img\partners\promo\bocadolobo.png" style="max-height:90px">
+        </a>
+    </div>-->
+
     </div>
 </div>
 <div class="container1 division-gray division-main " data-bind="with: becomePartner" id="parceria">
