@@ -332,6 +332,10 @@ $(document).ready(function () {
                     r: "Deves contactar a organização para adequar da melhor forma possível a calendarização da tua prova no " +
                         "dia de avaliação."
                 },
+                {
+                    p: "Na modalidade Innovative Design também se faz um protótipo?",
+                    r: "Sim, durante a prova de Innovative Design as equipas podem realizar um protótipo físico."
+                },
             ]
         },
         juri: {

@@ -332,6 +332,10 @@ $(document).ready(function () {
                     p: "I have an exam on the same day as the challenge. What now?",
                     r: "You should contact the organization to best fit the timing of your challenge on the day of presentation."
                 },
+                {
+                    p: "In the Innovative Design modality, is a prototype also made?",
+                    r: "Yes, during the Innovative Design modality teams can make a physical prototype."
+                },
             ]
         },
         juri: {
