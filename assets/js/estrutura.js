@@ -346,18 +346,23 @@ $(document).ready(function () {
             
             juri1: [
                 {
-                    nome: "...",
-                    descricao: "...",
-                    foto: 'assets/img/juri/default.jpg',
+                    nome: "Luís Cadillon Costa",
+                    descricao: "",
+                    foto: 'assets/img/juri/cadillon.JPG',
                     conta: "#"
                 },
                 {
-                    nome: "...",
-                    descricao: "...",
-                    foto: "assets/img/juri/default.jpg",
-                    conta: "#"
+                    nome: "Victor Neto",
+                    descricao: "",
+                    foto: "assets/img/juri/vitorneto.jpg",
+                    conta: "https://www.linkedin.com/in/victorneto"
                 },
-                {nome: "...", descricao: "...", foto: "assets/img/juri/default.jpg", conta: "#"}
+                {
+                    nome: "João Oliveira", 
+                    descricao: "", 
+                    foto: "assets/img/juri/joaooliveira.jpg", 
+                    conta: "#"
+                }
             ],
             juri2: [
                 {nome: "...", descricao: "...", foto: "assets/img/juri/default.jpg", conta: "#"},
