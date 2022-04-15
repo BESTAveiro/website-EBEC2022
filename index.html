@@ -350,12 +350,12 @@ setInterval(updateTime, 100)
 
         <section class="division-blue vertical-align container-fluid seccao" data-bind="with: seccao2" id="modalidades">
             <div class="row">
-                <div class="col-lg-14 text-center">
+                <div class="col-lg-12 text-center">
                     <h2 class="text-orange" data-bind="text: title"></h2>
                 </div>
             </div>
             <div class="row" data-bind="foreach: modalidades">
-                <div class="col-lg-6">
+                <div class="col-lg-12">
                     <h3 class="text-orange text-center" data-bind="text: title"></h3>
                     <p class="text-justify text-white" data-bind="text: corpo"></p>
                 </div>
@@ -427,28 +427,28 @@ setInterval(updateTime, 100)
                     <thead>
                         <tr class="bg-sky">
                             <!--<th class="text-uppercase text-center text-black">Horas</th>-->
-                            <th class="text-uppercase text-center bg-light-gray text-black">Quarta-feira<br>30/03/22</th>
-                            <th class="text-uppercase text-center bg-light-gray text-black">Quinta-feira<br>31/03/22</th>
-                            <th class="text-uppercase text-center bg-light-gray text-black">Sexta-feira<br>01/04/22</th>
+                            <th class="text-uppercase text-center bg-light-gray text-black">Quarta-feira<br>20/04/22</th>
+                            <th class="text-uppercase text-center bg-light-gray text-black">Quinta-feira<br>21/04/22</th>
+                            <!--<th class="text-uppercase text-center bg-light-gray text-black">Sexta-feira<br>01/04/22</th>
                             <th class="text-uppercase text-center bg-light-gray text-black">Sábado<br>02/04/22</th>
                             <th class="text-uppercase text-center bg-light-gray text-black">Domingo<br>03/04/22</th>
-                            <th class="text-uppercase text-center bg-light-gray text-black">Quarta-feira<br>06/04/22</th>
+                            <th class="text-uppercase text-center bg-light-gray text-black">Quarta-feira<br>06/04/22</th>-->
                         </tr>
                     </thead>
                     
                         <tr>
                             <!--<td class="align-middle bg-sky text-black"> 09:00</td>-->
                             <td>
-                                <span class="bg-orange padding-5px-tb padding-8px-lr border-radius-5 margin-10px-bottom text-white font-size16 xs-font-size13">14:00-16:00</span>
+                                <span class="bg-orange padding-5px-tb padding-8px-lr border-radius-5 margin-10px-bottom text-white font-size16 xs-font-size13">15:30-16:00</span>
                                 <div class="margin-10px-top font-size14 text-light-gray"></div>
-                                <div class="font-size13 text-light-gray">Momento Parceiro<br>ubiwhere</div>
+                                <div class="font-size13 text-light-gray">Check-in</div>
                             </td>
                             <td>
-                                <span class="bg-orange padding-5px-tb padding-8px-lr border-radius-5 margin-10px-bottom text-white font-size16  xs-font-size13">17:00-19:00</span>
+                                <span class="bg-orange padding-5px-tb padding-8px-lr border-radius-5 margin-10px-bottom text-white font-size16  xs-font-size13">18:00-19:30</span>
                                 <div class="margin-10px-top font-size14 text-light-gray"></div>
-                                <div class="font-size13 text-light-gray">Workshop de<br>Microcontroladores</div>
+                                <div class="font-size13 text-light-gray">Apresentação<br>de provas</div>
                             </td>
-                            <td>
+                            <!--<td>
                                 <span class="bg-orange padding-5px-tb padding-8px-lr border-radius-5 margin-10px-bottom text-white font-size16  xs-font-size13">18:00-19:00</span>
                                 <div class="margin-10px-top font-size14 text-light-gray"></div>
                                 <div class="font-size13 text-light-gray">Magma Studio<br>Workshop (online)</div>
@@ -467,20 +467,22 @@ setInterval(updateTime, 100)
                                 <span class="bg-orange padding-5px-tb padding-8px-lr border-radius-5 margin-10px-bottom text-white font-size16  xs-font-size13">15:00-18:30</span>
                                 <div class="margin-10px-top font-size14 text-light-gray"></div>
                                 <div class="font-size13 text-light-gray">Apresentação<br>das provas</div>
-                            </td>
+                            </td>-->
                         </tr>
 
                         <tr>
                             <!--<td class="align-middle bg-sky text-black">10:00</td>-->
                             <td>
-                                <span class="bg-orange padding-5px-tb padding-8px-lr border-radius-5 margin-10px-bottom text-white font-size16  xs-font-size13">16:00-17:00</span>
+                                <span class="bg-orange padding-5px-tb padding-8px-lr border-radius-5 margin-10px-bottom text-white font-size16  xs-font-size13">16:00-16:30</span>
                                 <div class="margin-10px-top font-size14 text-light-gray"></div>
-                                <div class="font-size13 text-light-gray">Cocktail<br>Network</div>
+                                <div class="font-size13 text-light-gray">Sessão de<br>Abertura</div>
                             </td>
                             <td class="bg-gray">
-
+                                <span class="bg-orange padding-5px-tb padding-8px-lr border-radius-5 margin-10px-bottom text-white font-size16  xs-font-size13">19:30-20:00</span>
+                                <div class="margin-10px-top font-size14 text-light-gray"></div>
+                                <div class="font-size13 text-light-gray">Sessão de<br>Encerramento</div>
                             </td>
-                            <td class="bg-gray">
+                            <!--<td class="bg-gray">
 
                             </td>
                             
@@ -496,15 +498,16 @@ setInterval(updateTime, 100)
                                 <span class="bg-orange padding-5px-tb padding-8px-lr border-radius-5 margin-10px-bottom text-white font-size16  xs-font-size13">18:30-19:00</span>
                                 <div class="margin-10px-top font-size14 text-light-gray"></div>
                                 <div class="font-size13 text-light-gray">Sessão de<br>encerramento</div>
-                            </td>                        
+                            </td>-->                        
                         </tr>
 
                         <tr>
-                            <!--<td class="align-middle bg-sky text-black">11:00</td>-->
-                            <td class="bg-gray">
-
+                            <td>
+                                <span class="bg-orange padding-5px-tb padding-8px-lr border-radius-5 margin-10px-bottom text-white font-size16  xs-font-size13">16:30-21:30</span>
+                                <div class="margin-10px-top font-size14 text-light-gray"></div>
+                                <div class="font-size13 text-light-gray">Competição</div>
                             </td>
-                            <td class="bg-gray">
+                            <!--<td class="bg-gray">
 
                             </td>
                             <td class="bg-gray">
@@ -524,7 +527,7 @@ setInterval(updateTime, 100)
                         </tr>
 
                         <tr>
-                            <!--<td class="align-middle bg-sky text-black">12:00</td>-->
+                            <td class="align-middle bg-sky text-black">12:00</td>
                             <td class="bg-gray">
 
                             </td>
@@ -545,10 +548,10 @@ setInterval(updateTime, 100)
                             <td class="bg-gray">
 
                             </td>
-                        </tr>
+                        </tr>-->
 
-                        <tr>
-                            <!--<td class="align-middle bg-sky text-black">13:00</td>-->
+                        <!--<tr>
+                            <td class="align-middle bg-sky text-black">13:00</td>
                             <td class="bg-gray">
 
                             </td>
@@ -569,7 +572,7 @@ setInterval(updateTime, 100)
                             <td class="bg-gray">
 
                             </td>
-                        </tr>
+                        </tr>-->
                 </table>
             </div>
         </div>
@@ -683,7 +686,7 @@ setInterval(updateTime, 100)
             <br>
         </div>
     </div>
-    <div class="row">
+    <!--<div class="row">
         <div class="col-xs-12 text-center">
             <h3 class="text-orange" data-bind="text: sectionSubHeading1"
                 style="font-weight: bold;font-size: 35px; padding-bottom: 20px;"></h3>
@@ -709,8 +712,8 @@ setInterval(updateTime, 100)
                 </div>
             </div>
         </div>
-    </div>
-    <!--<div class="row">
+    </div>-->
+    <div class="row">
         <div class="col-xs-12 text-center">
             <h3 class="text-orange" data-bind="text: sectionSubHeading2"
                 style="font-weight: bold;font-size: 35px; padding-bottom: 20px;"></h3>
@@ -735,7 +738,7 @@ setInterval(updateTime, 100)
                 </div>
             </div>
         </div>
-    </div>-->
+    </div>
 </div>
 
 <div class="container1 division-blue division-main" data-bind="with: team" id="equipa">

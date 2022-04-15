@@ -73,12 +73,12 @@ $(document).ready(function () {
                                 "otimizar processos. Cada um dos casos de estudo deverá estar preparado para corresponder a " +
                                 "12 horas de prova, sendo entregue aos participantes no início da competição."
                         },
-                        {
+                        /*{
                             title: "Innovative Design",
                             corpo: "Os participantes combinam a sua criatividade e o seu conhecimento para desenvolver novos designs " +
                                 "tecnológicos ou melhorar designs já existentes, num período de 24h. A sua apresentação deve ter " +
                                 "em conta o impacto técnico, social, ambiental e económico no seu design."
-                        }
+                        }*/
                     ]
                 },
                 /*seccao3: [
@@ -191,7 +191,7 @@ $(document).ready(function () {
                 /*"Regista-te no site do BEST. Podes fazê-lo " +
                 "<a target='_blank' href='https://www.best.eu.org/account/registration.jsp'>aqui</a>.",*/
                 " Efetua a pré-inscrição na EBEC Aveiro 2022. Podes fazê-lo " +
-                "<a href=\"https://forms.gle/yRhfizeu3LbTePq69\" target=\"_blank\">aqui</a>.",
+                "<a href=\"https://forms.gle/zhscowD6jHNg7cuE6\" target=\"_blank\">aqui</a>.",
                 " Indica o nome da tua equipa. Todos os elementos da equipa devem indicar o mesmo nome.",
                 " Preenche os dados pedidos. Todos os campos deverão ser preenchidos, à exceção do campo \"Currículo\", " +
                 "que é de preenchimento facultativo. Clica em 'Enviar' para finalizares esta parte.",
@@ -332,10 +332,10 @@ $(document).ready(function () {
                     r: "Deves contactar a organização para adequar da melhor forma possível a calendarização da tua prova no " +
                         "dia de avaliação."
                 },
-                {
+                /*{
                     p: "Na modalidade Innovative Design também se faz um protótipo?",
                     r: "Sim, durante a prova de Innovative Design as equipas podem realizar um protótipo físico."
-                },
+                },*/
             ]
         },
         juri: {

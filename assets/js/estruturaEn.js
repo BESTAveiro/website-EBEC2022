@@ -73,12 +73,12 @@ $(document).ready(function () {
                                 "need to innovate or optimize processes. Each of the case studies should be prepared to " +
                                 "take up to 12 hours to solve, being delivered to the participants at the beginning of the competition."
                         },
-                        {
+                        /*{
                             title: "Innovative Design",
                             corpo: "Participants combine their creativity and knowledge to develop new technological designs or " +
                                 "existing designs within a 24-hour improvement period. Your presentation must take into account " +
                                 "the technical, social, environmental and economic impact of your design."
-                        }
+                        }*/
                     ]
                 },
                 /*seccao3: [
@@ -189,7 +189,7 @@ $(document).ready(function () {
                 /*" Sign up on BEST Website. You can do it " +
                 "<a href=\"https://www.best.eu.org/account/registration.jsp\" target=\"_blank\">here</a>.",*/
                 " Do a pre-registration on EBEC Aveiro 2022. You can do it " +
-                "<a href=\"https://forms.gle/yRhfizeu3LbTePq69\" target=\"_blank\">here</a>.",
+                "<a href=\"https://forms.gle/zhscowD6jHNg7cuE6\" target=\"_blank\">here</a>.",
                 " Write the name of your team. All the members of the team have to write the same name.",
                 " Fill all the fields, with exception of 'Currículo', which it's optional. Click on 'Enviar' to finish " +
                 "this part.",
@@ -332,10 +332,10 @@ $(document).ready(function () {
                     p: "I have an exam on the same day as the challenge. What now?",
                     r: "You should contact the organization to best fit the timing of your challenge on the day of presentation."
                 },
-                {
+                /*{
                     p: "In the Innovative Design modality, is a prototype also made?",
                     r: "Yes, during the Innovative Design modality teams can make a physical prototype."
-                },
+                },*/
             ]
         },
         juri: {
